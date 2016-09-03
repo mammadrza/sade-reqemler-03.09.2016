@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+
+<script>
+
+function reqem(verdiyimReqem){
+
+	for(sadeReqem=3;sadeReqem<=verdiyimReqem;sadeReqem++)
+	{
+		for(murekkebReqem=2;murekkebReqem<=sadeReqem-1;murekkebReqem++)
+		{
+			yoxla=sadeReqem%murekkebReqem
+			if(yoxla==0){
+				break;
+				}else{
+					if(murekkebReqem==sadeReqem-1){document.write(sadeReqem+" <br> ");
+				}
+				}
+		}
+	}
+}
+reqem(20);
+
+</script>
+
+
+</body>
+</html>
